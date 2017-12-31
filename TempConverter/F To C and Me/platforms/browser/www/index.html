@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+		<link rel = "stylesheet" type = "text/css" href = "SS.css">
+		<title>Temp Converter</title>
+    </head> 
+    <body>
+		<div id = "header" align = "center">
+			<h1>F To C and Me! </h1> 
+		</div>
+		<div>
+			<!-- temp outputs -->
+			Your Temp in K: <p id = "k"> </p>
+			Your Temp in C: <p id = "c"> </p>
+			Your Temp in F: <p id = "f"> </p>
+		</div>
+		<div id = "btn">
+			<button id = "enter" onClick = "enter()">Enter</button>
+			<button id = "clear" onClick = "click()">Clear</button>
+		</div>
+		<script type="text/javascript" src ="Converter.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
