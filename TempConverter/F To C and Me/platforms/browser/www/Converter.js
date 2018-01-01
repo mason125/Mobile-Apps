@@ -1,4 +1,6 @@
 "use strict";
+//admob id: App ID: ca-app-pub-7787190243229429~8888993051
+//ca-app-pub-7787190243229429/5747044149
 //input f 
 const f = function(input)
 {
@@ -62,6 +64,8 @@ function main(){
 	}
 	
 }
+
+
 
 
 

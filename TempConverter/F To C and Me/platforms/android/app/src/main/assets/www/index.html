@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline'; style-src 'self' 'unsafe-inline'; media-src *" />
+		<link rel = "stylesheet" type = "text/css" href = "SS.css">
+		<title>Temp Converter</title>
+    </head> 
+    <body>
+		<div id = "header" align = "center">
+			<h1>F To C and Me! </h1> 
+		</div>
+		<br>
+		<br> 
+		<div>
+			<!-- temp outputs -->
+			<h3>
+				Your Temp in K: <a id = "k" class = "tempature"> </a>
+				<br>
+				Your Temp in C: <a id = "c" class = "tempature"> </a>
+				<br>
+				Your Temp in F: <a id = "f" class = "tempature"> </a>
+			</h3>
+			<br>
+			<div align = "center">
+				<input id = "val" class = "outline" /> 
+				<select id = "unit" class = "outline">
+					<option value = ""> </option>
+					<option value = "1">F°</option>
+					<option value = "2">C°</option>
+					<option value = "3">K°</option>
+				</select>
+			</div>
+		</div>
+		<!--button--> 
+		<br>
+		<button id = "enter" class ="outline" onclick="main()">Enter</button>
+		<script type="text/javascript" src ="Converter.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>		
+    </body>
+</html>
