@@ -8,27 +8,19 @@ h1
 	
 }
 
-#enter
+.outline
 {
 	background-color: white;
 	color:back;
 	border: 2px solid #000000;
-	padding: 15px 32px;
-	position: absolute;
-	bottom: 0px;
+	padding: 10px 22px;
 	
-	left: 5%;
 }
 
-#clear
+#enter
 {
-	background-color: white;
-	color:back;
-	border: 2px solid #000000;
-	padding: 15px 32px;
 	position: absolute;
-	bottom: 0px;
-	
-	right: 5%;
+	left: 50%;
+	transform: translate(-50%, 0);
 }
 

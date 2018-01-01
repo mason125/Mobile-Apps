@@ -11,19 +11,32 @@
 		<div id = "header" align = "center">
 			<h1>F To C and Me! </h1> 
 		</div>
+		<br>
+		<br> 
 		<div>
 			<!-- temp outputs -->
-			Your Temp in K: <a id = "k"> </a>
+			<h3>
+				Your Temp in K: <a id = "k" class = "tempature"> </a>
+				<br>
+				Your Temp in C: <a id = "c" class = "tempature"> </a>
+				<br>
+				Your Temp in F: <a id = "f" class = "tempature"> </a>
+			</h3>
 			<br>
-			Your Temp in C: <a id = "c"> </a>
-			<br>
-			Your Temp in F: <a id = "f"> </a>
+			<div align = "center">
+				<input id = "val" class = "outline" /> 
+				<select id = "unit" class = "outline">
+					<option value = ""> </option>
+					<option value = "1">F°</option>
+					<option value = "2">C°</option>
+					<option value = "3">K°</option>
+				</select>
+			</div>
 		</div>
-		<div id = "btn">
-			<button id = "enter" onClick = "enter()">Enter</button>
-			<button id = "clear" onClick = "click()">Clear</button>
-		</div>
+		<!--button--> 
+		<br>
+		<button id = "enter" class ="outline" onclick="main()">Enter</button>
 		<script type="text/javascript" src ="Converter.js"></script>
-		<script type="text/javascript" src="cordova.js"></script>
+		<script type="text/javascript" src="cordova.js"></script>		
     </body>
 </html>
